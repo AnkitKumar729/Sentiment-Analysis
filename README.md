@@ -1,6 +1,7 @@
 # Automatic Opinion Summarization from Customer Reviews
 Ankit Kumar | SAP ID 500120442 | Batch 02
 
+- `app.py`: front page for the demo. Type reviews in, see the summary, features and the score of every sentence
 - `Opinion_Summarization.ipynb`: the project code, already run with outputs (`.html` = same thing, viewable in a browser)
 - `data/headphone_reviews.csv`: 6,658 Amazon headphone reviews (Amazon Reviews 2023, McAuley Lab)
 - `Presentation/Opinion_Summarization_Presentation.pptx`: 14 slides with speaker notes
@@ -9,3 +10,5 @@ Ankit Kumar | SAP ID 500120442 | Batch 02
 - `source/`: scripts that rebuild the notebook, slides and explanation
 
 Run: `pip install -r requirements.txt`, then open the notebook and Run All (about 1 minute).
+
+Front page: `pip install -r requirements.txt`, then `streamlit run app.py` (opens http://localhost:8501).
